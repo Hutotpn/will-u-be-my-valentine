@@ -15,14 +15,15 @@ document.addEventListener("DOMContentLoaded", function () {
     "Ok now this is hurting my feelings! 😭",
     "You are now just being mean! 😭",
     "Why are you doing this to me? 😭",
-    "Please give me a chance! 😭",
-    "I am begging you to stop!",
+    "Please give me a chance! 🙏",
+    "I am begging you to stop! 🙏",
   ];
 
   let questionIndex = 0;
 
   yesButton.addEventListener("click", function () {
     responseMessage.innerText = "Yepppie, see you sooonnn ❤️";
+    noButton.style.display = "none";
   });
 
   noButton.addEventListener("click", function () {

@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   yesButton.addEventListener("click", function () {
     responseMessage.innerText = "เย้้! เจอกันเร็วๆ นี้้้ ❤️";
+    noButton.style.display = "none";
   });
 
   noButton.addEventListener("click", function () {
