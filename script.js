@@ -28,9 +28,5 @@ document.addEventListener("DOMContentLoaded", function () {
   noButton.addEventListener("click", function () {
     noButton.innerText = questions[questionIndex];
     questionIndex = (questionIndex + 1) % questions.length;
-
-    size += 10;
-    yesButton.style.height = `${size}px`;
-    yesButton.style.width = `${size}px`;
   });
 });
