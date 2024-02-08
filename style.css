@@ -1,45 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mali:wght@300;400;500;600&display=swap");
 
 body {
-    font-family: 'Mali', sans-serif;
-    background-color: #f8f8f8;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  font-family: "Mali", sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .container {
-    text-align: center;
+  text-align: center;
 }
 
 .valentine-image {
-    width: 300px; /* Adjust the width as needed */
-    border-radius: 10px;
-}
-
-h1 {
-    color: #e91e63;
+  width: 300px; /* Adjust the width as needed */
+  border-radius: 10px;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
 }
 
 #yesButton {
-    background-color: mediumseagreen;
+  background-color: #3cb371;
 }
 
-button:hover {
-    background-color: #c2185b;
+#noButton {
+  background-color: #c2185b;
+}
+
+#yesButton:hover {
+  background-color: #32925d;
+}
+
+#noButton:hover {
+  background-color: #9b144a;
 }
 
 #responseMessage {
-    margin-top: 20px;
+  margin-top: 20px;
 }
