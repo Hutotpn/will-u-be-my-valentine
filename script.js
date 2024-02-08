@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const sizes = [40, 50, 30, 35, 45];
     const random = Math.floor(Math.random() * sizes.length);
     size += sizes[random];
-    yes_button.style.height = `${size}px`;
-    yes_button.style.width = `${size}px`;
+    yesButton.style.height = `${size}px`;
+    yesButton.style.width = `${size}px`;
   });
 });
