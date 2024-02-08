@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const yesButton = document.getElementById("yesButton");
   const noButton = document.getElementById("noButton");
   const responseMessage = document.getElementById("responseMessage");
-  const noBtnMessage = document.getElementById("noButton");
 
   const questions = [
     "Are you sure?",
@@ -23,11 +22,17 @@ document.addEventListener("DOMContentLoaded", function () {
   let questionIndex = 0;
 
   yesButton.addEventListener("click", function () {
-    responseMessage.innerText = "Yepppie, see you sooonnn ❤️";
+    noButton.innerText = "Yepppie, see you sooonnn ❤️";
   });
 
   noButton.addEventListener("click", function () {
     noBtnMessage.innerText = questions[questionIndex];
     questionIndex = (questionIndex + 1) % questions.length;
+
+    const sizes = [40, 50, 30, 35, 45];
+    const random = Math.floor(Math.random() * sizes.length);
+    size += sizes[random];
+    yes_button.style.height = `${size}px`;
+    yes_button.style.width = `${size}px`;
   });
 });
