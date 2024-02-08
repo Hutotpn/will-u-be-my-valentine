@@ -27,10 +27,13 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #e91e63;
     color: #fff;
     border: none;
     border-radius: 5px;
+}
+
+#yesButton {
+    background-color: mediumseagreen;
 }
 
 button:hover {
