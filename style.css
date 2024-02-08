@@ -1,75 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Mali:wght@300;400;500;600&display=swap');
 
 body {
-    font-family: "Mali", cursive;
+    font-family: 'Mali', sans-serif;
+    background-color: #f8f8f8;
     margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-}
-
-h1 {
-    font-weight: 600;
-}
-
-h2 {
-    font-weight: 500;
-}
-
-button {
-    margin: 0 10px;
-    color: white;
-    height: 10px;
-    border: none;
-    cursor: pointer;
-}
-
-.btns {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    flex-direction: row;
-    align-items: end;
-    flex-wrap: wrap;
-}
-
-#no-btn {
-    background-color: tomato;
-}
-
-#yes-btn {
-    background-color: mediumseagreen;
-}
-
-/* Make responsive for mobile */
-@media (max-width: 768px) {
-    body {
-        padding: 0 20px;
-    }
+    height: 100vh;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 20px;
-    padding: 20px;
     text-align: center;
 }
 
-.message {
-    display: none;
+.valentine-image {
+    width: 300px; /* Adjust the width as needed */
+    border-radius: 10px;
 }
 
-.banner-gif {
-    height: 150em;
-    margin-top: 20px;
+h1 {
+    color: #e91e63;
+}
 
-    img {
-        width: auto;
-        height: 150px;
-    }
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #c2185b;
+}
+
+#responseMessage {
+    margin-top: 20px;
 }
