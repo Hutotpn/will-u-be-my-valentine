@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300;400;500;600&display=swap');
+
+body {
+    background-color: old-lace;
+    font-family: "Mali", cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+button {
+    margin: 0 10px;
+    color: white;
+    height: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: row;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+#no-btn {
+    background-color: tomato;
+}
+
+#yes-btn {
+    background-color: medium-sea-green;
+}
+
+/* Make responsive for mobile */
+@media (max-width: 768px) {
+    body {
+        padding: 0 20px;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.message {
+    display: none;
+}
+
+.banner-gif {
+    height: 30em;
+    margin-top: 20px;
+
+    img {
+        width: auto;
+        height: 250px;
+    }
+}
+
+/* Path: /js/script.js */
