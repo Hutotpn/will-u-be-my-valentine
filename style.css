@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mali:wght@300;400;500;600&display=swap');
 
 body {
-    background-color: old-lace;
+    background-color: oldlace;
     font-family: "Mali", cursive;
     margin: 0;
     padding: 0;
@@ -41,7 +41,7 @@ button {
 }
 
 #yes-btn {
-    background-color: medium-sea-green;
+    background-color: mediumseagreen;
 }
 
 /* Make responsive for mobile */
@@ -66,13 +66,11 @@ button {
 }
 
 .banner-gif {
-    height: 30em;
+    height: 150em;
     margin-top: 20px;
 
     img {
         width: auto;
-        height: 250px;
+        height: 150px;
     }
 }
-
-/* Path: /js/script.js */
