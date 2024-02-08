@@ -22,8 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let questionIndex = 0;
 
     yesButton.addEventListener('click', function() {
-        responseMessage.innerText = questions[questionIndex];
-        questionIndex = (questionIndex + 1) % questions.length;
+        responseMessage.innerText = "Yepppie, see you sooonnn ❤️";
     });
 
     noButton.addEventListener('click', function() {
