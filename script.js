@@ -22,16 +22,14 @@ document.addEventListener("DOMContentLoaded", function () {
   let questionIndex = 0;
 
   yesButton.addEventListener("click", function () {
-    noButton.innerText = "Yepppie, see you sooonnn ❤️";
+    responseMessage.innerText = "Yepppie, see you sooonnn ❤️";
   });
 
   noButton.addEventListener("click", function () {
-    noBtnMessage.innerText = questions[questionIndex];
+    noButton.innerText = questions[questionIndex];
     questionIndex = (questionIndex + 1) % questions.length;
 
-    const sizes = [40, 50, 30, 35, 45];
-    const random = Math.floor(Math.random() * sizes.length);
-    size += sizes[random];
+    size += 10;
     yesButton.style.height = `${size}px`;
     yesButton.style.width = `${size}px`;
   });
