@@ -1,0 +1,21 @@
+{
+  "title": "¿Quieres ser mi San Valentín?",
+  "yesButton": "Sí",
+  "noButton": "No",
+  "responseMessage": "¡Sí! Nos vemos pronto ❤️",
+  "questions": [
+    "¿Estás seguro?",
+    "¿Estás realmente seguro??",
+    "¿Estás realmente, realmente seguro???",
+    "¿Lo has pensado bien?",
+    "¿No crees en las segundas oportunidades?",
+    "¿Por qué estás siendo tan frío? 😢",
+    "¿Tal vez podamos hablar de ello?",
+    "¡No voy a preguntar de nuevo! 😡",
+    "¡Esto está hiriendo mis sentimientos! 😭",
+    "¡Ahora estás siendo cruel! 😭",
+    "¿Por qué me haces esto? 😭",
+    "¡Por favor, dame una oportunidad! 🙏",
+    "¡Te ruego que pares! 🙏"
+  ]
+}
