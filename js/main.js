@@ -1,4 +1,4 @@
-import { translations, loadTranslations } from './translations.js';
+const { translations, loadTranslations } = require('./translations.js');
 
 function getPreferredLanguage() {
   const language = navigator.language || navigator.userLanguage;
