@@ -1,4 +1,4 @@
-import { translations } from './translations.js';
+import { translations, loadTranslations } from './translations.js';
 
 function getPreferredLanguage() {
   const language = navigator.language || navigator.userLanguage;
@@ -16,13 +16,15 @@ function setTextContent(language) {
   title.innerText = translations[language].title;
 }
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", async function () {
   const language = getPreferredLanguage();
+  await loadTranslations(language);
   setTextContent(language);
 
   const yesButton = document.getElementById("yesButton");
   const noButton = document.getElementById("noButton");
   const responseMessage = document.getElementById("responseMessage");
+  const languageButton = document.getElementById("languageButton");
 
   let questionIndex = 0;
 
@@ -34,5 +36,13 @@ document.addEventListener("DOMContentLoaded", function () {
   noButton.addEventListener("click", function () {
     noButton.innerText = translations[language].questions[questionIndex];
     questionIndex = (questionIndex + 1) % translations[language].questions.length;
+  });
+
+  languageButton.addEventListener("click", async function () {
+    const currentLanguage = languageButton.getAttribute("data-language");
+    const newLanguage = currentLanguage === "en" ? "th" : "en";
+    languageButton.setAttribute("data-language", newLanguage);
+    await loadTranslations(newLanguage);
+    setTextContent(newLanguage);
   });
 });
