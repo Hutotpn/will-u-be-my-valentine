@@ -1,0 +1,21 @@
+{
+  "title": "Veux-tu être mon valentin?",
+  "yesButton": "D'accord",
+  "noButton": "Non",
+  "responseMessage": "Youpi, à bientôt ❤️",
+  "questions": [
+    "Es-tu sûr?",
+    "Es-tu vraiment sûr??",
+    "Es-tu vraiment vraiment sûr???",
+    "Réfléchis encore?",
+    "Tu ne crois pas aux secondes chances?",
+    "Pourquoi es-tu si froid? 😢",
+    "Peut-être qu'on peut en parler?",
+    "Je ne vais pas demander encore! 😡",
+    "Ok maintenant ça me fait mal! 😭",
+    "Tu es juste méchant maintenant! 😭",
+    "Pourquoi tu me fais ça? 😭",
+    "S'il te plaît, donne-moi une chance! 🙏",
+    "Je te supplie d'arrêter! 🙏"
+  ]
+}

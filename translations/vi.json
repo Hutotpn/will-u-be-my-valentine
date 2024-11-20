@@ -1,0 +1,21 @@
+{
+  "title": "Bạn sẽ là Valentine của tôi chứ?",
+  "yesButton": "Được thôi",
+  "noButton": "Không",
+  "responseMessage": "Yepppie, hẹn gặp lại ❤️",
+  "questions": [
+    "Bạn có chắc không?",
+    "Bạn có thực sự chắc chắn không??",
+    "Bạn có thực sự thực sự chắc chắn không???",
+    "Nghĩ lại?",
+    "Không tin vào cơ hội thứ hai?",
+    "Tại sao bạn lại lạnh lùng như vậy? 😢",
+    "Có lẽ chúng ta có thể nói về điều đó?",
+    "Tôi sẽ không hỏi lại nữa! 😡",
+    "Ok bây giờ điều này đang làm tổn thương cảm xúc của tôi! 😭",
+    "Bây giờ bạn chỉ đang tàn nhẫn! 😭",
+    "Tại sao bạn lại làm điều này với tôi? 😭",
+    "Làm ơn cho tôi một cơ hội! 🙏",
+    "Tôi đang cầu xin bạn dừng lại! 🙏"
+  ]
+}

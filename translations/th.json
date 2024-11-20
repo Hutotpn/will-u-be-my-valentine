@@ -1,9 +1,9 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const yesButton = document.getElementById("yesButton");
-  const noButton = document.getElementById("noButton");
-  const responseMessage = document.getElementById("responseMessage");
-
-  const questions = [
+{
+  "title": "คุณจะเป็นวาเลนไทน์ของฉันไหม?",
+  "yesButton": "ได้เลยยย",
+  "noButton": "ไม่อะ",
+  "responseMessage": "เย้้! เจอกันเร็วๆ นี้้้ ❤️",
+  "questions": [
     "แน่ใจหรอ?",
     "คุณแน่ใจจริงๆหรอ??",
     "แน่ใจจริงๆหรอ???",
@@ -16,18 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
     "ตอนนี้คุณก็แค่ใจร้าย! 😭",
     "ทำไมถึงทำกับฉันได้? 😭",
     "โปรดให้โอกาสฉันด้วย! 🙏",
-    "ฉันขอร้องให้คุณหยุด! 🙏",
-  ];
-
-  let questionIndex = 0;
-
-  yesButton.addEventListener("click", function () {
-    responseMessage.innerText = "เย้้! เจอกันเร็วๆ นี้้้ ❤️";
-    noButton.style.display = "none";
-  });
-
-  noButton.addEventListener("click", function () {
-    noButton.innerText = questions[questionIndex];
-    questionIndex = (questionIndex + 1) % questions.length;
-  });
-});
+    "ฉันขอร้องให้คุณหยุด! 🙏"
+  ]
+}
