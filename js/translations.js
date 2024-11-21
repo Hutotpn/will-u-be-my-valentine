@@ -9,5 +9,3 @@ async function loadTranslations(language) {
     console.error(`Error loading ${language} translations:`, error);
   }
 }
-
-export { translations, loadTranslations };
